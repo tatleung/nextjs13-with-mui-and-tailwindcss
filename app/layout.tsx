@@ -1,21 +1,11 @@
 "use client";
 
-import { ThemeProvider, CssBaseline } from "@mui/material";
-// import { CacheProvider } from "@emotion/react";
-// import { StyledEngineProvider } from "@mui/material/styles";
-// import createEmotionCache from "./utility/createEmotionCache";
-
-import darkTheme from "./theme/darkTheme";
-// import lightTheme from "./theme/lightTheme";
 import "./globals.css";
+import darkTheme from "./theme/darkTheme";
 
-// const clientSideEmotionCache = createEmotionCache();
+import { ThemeProvider, CssBaseline } from "@mui/material";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>

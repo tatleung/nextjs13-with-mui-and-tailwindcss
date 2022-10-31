@@ -1,8 +1,6 @@
 "use client";
 
-// import styles from "./page.module.css";
 import { Button, Grid, Stack } from "@mui/material";
-// import { Container } from "@mui/system";
 
 export default function Home() {
   return (
