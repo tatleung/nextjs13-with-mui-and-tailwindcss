@@ -27,5 +27,5 @@ npm install @mui/material @emotion/react @emotion/styled
 ## backup information
 
 ```
-npm install @emotion/cache @emotion/react @emotion/styled
+npm install @emotion/cache
 ```
