@@ -1,6 +1,6 @@
 # Using Material UI with Next.js 13 and Tailwind CSS
 
-Next.js 13 is officially released to the public on October 25th, 2022. Many new features will make writing Next.js applications simpler. One of these is the introduction of the `app` folder and a new way of defining routes. This change will impact the integration of Material UI with Next.js. This article will present one approach for the integration of Material UI with Nest.js 13. I will present the details of each step and also integrate Tailwind CSS with MUI and Next.js.
+Next.js 13 has been officially released to the public on October 25th, 2022. Many new features will make writing Next.js applications simpler. One of these is the introduction of the `app` folder and a new way of defining routes. This change will impact the integration of Material UI with Next.js. This article will present one approach for the integration of Material UI with Nest.js 13. I will present the details of each step and also integrate Tailwind CSS with MUI and Next.js.
 
 ## Prerequisites
 
@@ -20,9 +20,9 @@ The `--expermiental-app` flag is used here because the `app` folder feature is s
 
 ![Initial Nest.js files and folders](article/2022-10-30-21-51-21.png)
 
-## Delete the `page` folder
+## Delete the `pages` folder
 
-For our sample exercise, we will not be working with the `page` folder. So we will delete it.
+For our sample exercise, we will not be working with the `pages` folder. So we will delete it.
 
 ## Install Material UI
 
