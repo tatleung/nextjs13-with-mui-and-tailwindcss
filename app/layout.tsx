@@ -24,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="icon" href="/favicon.ico" />
       </head>
       <ThemeProvider theme={theme}>
-        <body>
+        <body id="__next">
           <CssBaseline />
           <FormControlLabel
             control={
