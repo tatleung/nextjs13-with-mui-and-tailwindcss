@@ -151,7 +151,7 @@ A better alternative for the custom styles is to use Tailwind CSS since the util
 
 ## Install Tailwind CSS
 
-The following command installs the `tailwindcss`, `postcss`, and `antoprefixer` needed to integrate Tailwind CSS with Next.js. For more information, see [Install Tailwind CSS with Next.js](https://tailwindcss.com/docs/guides/nextjs).
+The following command installs the `tailwindcss`, `postcss`, and `autoprefixer` needed to integrate Tailwind CSS with Next.js. For more information, see [Install Tailwind CSS with Next.js](https://tailwindcss.com/docs/guides/nextjs).
 
 ```
 npm install -D tailwindcss postcss autoprefixer
